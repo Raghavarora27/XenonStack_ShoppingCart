@@ -1,5 +1,5 @@
 # XenonStack_ShoppingCart
-This is a Online Shopping Single Page Application
+This is a Online Ecommerce Single Page Application
 ## Desktop View
 Test Email - admin@gmail.com,  Password - 1234
 ![4](https://user-images.githubusercontent.com/66276244/200937763-33703055-4f96-4e96-b9e0-3a265934320e.PNG)
