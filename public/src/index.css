@@ -1,0 +1,324 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: 	#DCDCDC;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+.main{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("./images/shop.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 3rem;
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid;
+  height: 30rem;
+}
+
+.container {
+  padding: 1rem 3rem;
+  padding-bottom: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  margin: 1rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: rgb(80, 98, 255);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(80, 98, 255);
+}
+
+.private {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+
+.search {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  border: 3px solid #aaa;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-direction: column;
+  border-radius: 3%;
+}
+
+.list:hover{
+  height: 19rem;
+  width: 19rem;
+  background-color: #FFC501;
+  border: 10px solid #FFC501;
+}
+
+.header,.footer {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header div span {
+  font-size: 25px;
+  margin-right: 1rem;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+  height: 8vh;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.link{
+  color: white;
+}
+
+.contact-container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.contact-container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("./images/market.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	/* max-width: 850px; */
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background: url("./images/market.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc71;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+  .contact-box{
+    height: 80%;
+    width: 100vw;
+		grid-template-columns: 1fr;
+	}
+
+	.left{
+    display: none;
+	}
+  .contact-container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .link{
+      font-size: 1.4rem;
+    }
+    
+    .logout-btn{
+      font-size: 1rem;
+    }
+
+    .dropdown{
+      font-size: 1rem;
+    }
+} 
+
+
+/* Dropdown Button */
+.dropbtn {
+  /* background-color: #04AA6D; */
+  color: white;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
