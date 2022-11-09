@@ -1,4 +1,5 @@
 # XenonStack_ShoppingCart
+This is a Online Shopping Single Page Application
 ## Desktop View
 Test Email - admin@gmail.com,  Password - 1234
 ![4](https://user-images.githubusercontent.com/66276244/200937763-33703055-4f96-4e96-b9e0-3a265934320e.PNG)
@@ -19,4 +20,12 @@ Test Email - admin@gmail.com,  Password - 1234
  <a href="https://github.com/Raghavarora27?tab=repositories&amp;q=&amp;type=&amp;language=javascript&amp;sort="> <img width="50px" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/reactjs.svg" style="max-width: 100%;"> </a>
 <h2>Backend - NodeJS</h2><a href="https://github.com/Raghavarora27?tab=repositories&amp;q=&amp;type=&amp;language=javascript&amp;sort="> <img width="50px" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/nodejs.svg" style="max-width: 100%;"> </a>
 <h2>Database - MongoDB<h2><a href="https://github.com/Raghavarora27?tab=repositories&amp;q=&amp;type=&amp;language=javascript&amp;sort="> <img width="50px" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/mongodb.svg" style="max-width: 100%;"> </a>
+
+## Features
+1. SignUp System
+2. Login System
+3. Home page
+4. Contact Us
+5. Search functionality
+6. Data stored in Database
  
